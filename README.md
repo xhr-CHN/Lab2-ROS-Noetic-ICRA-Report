@@ -23,13 +23,15 @@ No physical UAV or robot was connected. The control experiment used TurtleSim as
 - `report/ieeeconf.cls`: official IEEE/ICRA conference class used for compilation.
 - `report/figures/`: all figures included in the report.
 - `code/`: verified source changes and the TurtleSim controller used in the experiment.
-- `source/`: source-version notes and verified modified code references.
+- `source/`: source-version notes and upstream provenance.
 - `evidence/`: original screenshot collection, extracted images, and later evidence images 18--26.
 - `reproducibility/`: commands, completion matrix, and environment notes.
 
 ## Source provenance
 
 The ROS package was executed from `MIT-SPARK/VNAV-labs` commit `609f31f`, the ROS1-compatible commit identified during the experiment. The repository tip was ROS2 `ament_cmake` and was intentionally not used for the successful catkin build.
+
+The complete `two_drones_pkg` source snapshot is included under `code/two_drones_pkg/`, including `CMakeLists.txt`, `package.xml`, launch/configuration files, the mesh, and complete C++ source files.
 
 Upstream repository: https://github.com/MIT-SPARK/VNAV-labs
 
